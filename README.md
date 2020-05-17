@@ -17,7 +17,7 @@ Challenge Back End | Encurtador de URLs da Wiser Educação
 <p>Abra o arquivo server.js na raíz da aplicação
 Configure os dados necessários ({Local}, {}) para acessar a base de dados
 </p>
-
+<small>
 <br>
     <br>
     var connection = mysql.createPool({<br>
@@ -29,7 +29,7 @@ Configure os dados necessários ({Local}, {}) para acessar a base de dados
     });<br>
     <br>
 <br>
-
+</small>
 
 <h5>Instalação dos pacotes necessários</h5>
 <p>Acesse a pasta onde está aplicação pelo terminal<br>
