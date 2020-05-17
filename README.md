@@ -20,14 +20,14 @@ Configure os dados necessários ({Local}, {}) para acessar a base de dados
 
 <br>
     <code>
-    var connection = mysql.createPool({<br>
-        connectionLimit:50,<br>
-        host:'{Local}', // Informe o endereço ip ou dns onde está rodando o sgbd<br>
-        user:'{Usuário}', // Informe o usuário do banco de dados<br>
-        password: '{Senha}', // Informe a senha do usuário<br>
-        database: 'wiser_test_back_end'<br>
-    });
-    <code>
+        var connection = mysql.createPool({
+            connectionLimit:50,
+            host:'{Local}', 
+            user:'{Usuário}', 
+            password: '{Senha}', 
+            database: 'wiser_test_back_end'
+        });
+    </code>
 <br>
 
 
