@@ -1,0 +1,24 @@
+{
+  "name": "wiser-test-backend",
+  "version": "1.0.0",
+  "description": "Aplicação de encurtamento de urls, utilizando chaves criptografadas de 5 a 10 caracteres.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/belchiorjr/WiserTestBackEnd.git"
+  },
+  "author": "Belchior Pereira de Araújo Júnior",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/belchiorjr/WiserTestBackEnd/issues"
+  },
+  "homepage": "https://github.com/belchiorjr/WiserTestBackEnd#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mysql": "^2.18.1"
+  }
+}
