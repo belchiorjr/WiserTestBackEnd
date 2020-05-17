@@ -1,0 +1,60 @@
+{
+	"info": {
+		"_postman_id": "4e5be1eb-8672-40ca-a8b7-2255db826151",
+		"name": "Teste de Desenvolvedor Full Stack - WiserEducação",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Encurtador",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "url",
+							"value": "http://wisereducacao.com",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:8081/encurtador",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"encurtador"
+					]
+				},
+				"description": "Envia uma url ao servidor e retorna uma outra url, com uma chave."
+			},
+			"response": []
+		},
+		{
+			"name": "Usando a url curta",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8081/254cccedf",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"254cccedf"
+					]
+				},
+				"description": "Verifica a url e checa se o valor informado é uma chave e se essa chave encontra-se disponível para utilização, caso ainda esteja válida se feito o redirecionamento."
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
