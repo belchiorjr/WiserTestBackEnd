@@ -19,15 +19,15 @@ Configure os dados necessários ({Local}, {}) para acessar a base de dados
 </p>
 
 <br>
-    <code>
-        var connection = mysql.createPool({
-            connectionLimit:50,
-            host:'{Local}', 
-            user:'{Usuário}', 
-            password: '{Senha}', 
-            database: 'wiser_test_back_end'
-        });
-    </code>
+    <br>
+    var connection = mysql.createPool({<br>
+        connectionLimit:50,<br>
+        host:'{Local}', <br>
+        user:'{Usuário}', <br>
+        password: '{Senha}', <br>
+        database: 'wiser_test_back_end'<br>
+    });<br>
+    <br>
 <br>
 
 
